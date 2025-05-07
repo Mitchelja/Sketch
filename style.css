@@ -1,0 +1,29 @@
+body {
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid black;
+    width: 100vw;
+    height: 100vh;
+    box-sizing: border-box;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.box{
+    display: flex;
+    border: 1px solid black;
+    width: calc(25vw - 2px);
+    height: calc(25vh - 2px);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.userBox{
+    flex-grow: 0;
+flex-shrink: 1;
+flex-basis: calc(20% - 10px);
+aspect-ratio: 1 / 1;
+margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 1px solid black;
+}
